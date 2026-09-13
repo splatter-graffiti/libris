@@ -37,9 +37,7 @@ Book-03/Interior/Book 3.sla \
 The projects may use the following software:
 
 - **Scribus 1.6.6** — book layout, typography, master pages, page numbering, text flow, and PDF production
-- **Adobe Photoshop** — image editing and preparation
 - **GIMP** — image editing, manipulation, and color preparation
-- **Krita** — digital painting and illustration
 
 ## Skills Demonstrated
 
@@ -81,7 +79,6 @@ The projects may use the following software:
 - Screen-optimized documents
 - Ebook-oriented layouts
 - Digital document optimization
-- EPUB workflows where appropriate
 
 ## Repository Structure
 
