@@ -1,6 +1,6 @@
-# Scribus Books
+# libris
 
-A collection of book design and desktop publishing projects created with **Scribus 1.6.6**, using public-domain literary works as source material.
+A collection of desktop publishing projects created with **Scribus 1.6.6**, using public-domain literary works as source material.
 
 The purpose of this repository is to demonstrate practical skills in **book layout, typography, page composition, image preparation, color management, and print/digital publishing workflows**.
 
@@ -14,27 +14,27 @@ The focus is on demonstrating the complete **book production and desktop publish
 
 ## Location of PDF Books
 
-Book-01-The-Picture-of-Dorian-Gray/PDF Book and Cover/The Picture of Dorian Gray - Oscar Wilde.pdf \
-Book-02/PDF Book and Cover/Book 2.pdf \
-Book-03/PDF Book and Cover/Book 3.pdf \
+The-Picture-of-Dorian-Gray/PDF Book and Cover/The Picture of Dorian Gray - Oscar Wilde.pdf \
+Book 2/PDF Book and Cover/Book 2.pdf \
+Book 3/PDF Book and Cover/Book 3.pdf \
 ...
 
 ## Location of Scribus .sla files
 
-Book-01-The-Picture-of-Dorian-Gray/Interior/The Picture of Dorian Gray - Oscar Wilde.sla \
-Book-02/Interior/Book 2.sla \
-Book-03/Interior/Book 3.sla \
+The-Picture-of-Dorian-Gray/Interior/The Picture of Dorian Gray - Oscar Wilde.sla \
+Book 2/Interior/Book 2.sla \
+Book 3/Interior/Book 3.sla \
 ...
 
 ## Screenshots of PDF Book Cover
 
-<img src="./Book-01-The-Picture-of-Dorian-Gray/Screenshots/Screenshot Cover.png" width="840" alt="Screenshot 1">
+<img src="./books/The-Picture-of-Dorian-Gray/Screenshots/Screenshot Cover.png" width="840" alt="Screenshot 1">
 
 ## Screenshots of PDF Book Pages
 
-<img src="./Book-01-The-Picture-of-Dorian-Gray/Screenshots/Screenshot 1.png" width="840" alt="Screenshot 1">
+<img src="./books/The-Picture-of-Dorian-Gray/Screenshots/Screenshot 1.png" width="840" alt="Screenshot 1">
 
-<img src="./Book-01-The-Picture-of-Dorian-Gray/Screenshots/Screenshot 2.png" width="840" alt="Screenshot 2">
+<img src="./books/The-Picture-of-Dorian-Gray/Screenshots/Screenshot 2.png" width="840" alt="Screenshot 2">
 
 ## Software
 
@@ -93,7 +93,7 @@ scribus-books/
 ├── LICENSE
 ├── .gitignore
 │
-├── Book-01-The-Picture-of-Dorian-Gray/
+├── The-Picture-of-Dorian-Gray/
 │   ├── Interior/
 │   │   └── Book-Interior.sla
 │   │
@@ -107,7 +107,7 @@ scribus-books/
 │   └── PDF Preview/
 │       ├── Book.pdf
 │
-├── Book-02/
+├── Book 2/
 │   └── ...
 │
 └── ...
@@ -173,7 +173,7 @@ Important text, logos, and other essential elements should remain safely inside 
 Each book uses a separate Scribus cover document from the interior document:
 
 ```text
-Book-01-The-Picture-of-Dorian-Gray/
+The-Picture-of-Dorian-Gray/
 ├── Interior/
 │   └── The Picture of Dorian Gray - Oscar Wilde.sla
 │
