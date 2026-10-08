@@ -1,0 +1,9 @@
+.biography-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: "CsLugeniaStippledRegularDemo";
+    font-size: 20px;
+    color: gray;
+}

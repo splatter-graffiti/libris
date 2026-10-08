@@ -1,0 +1,53 @@
+/* menu.css */
+
+.menu {
+    background-color: #181117;
+    border: 2px solid #241b22;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.menu span {
+    font-family: "CsLugeniaStippledRegularDemo";
+    font-size: 20px;
+
+    color: rgb(138, 130, 130);
+    padding-bottom: 12px;
+}
+
+.menu a {
+    font-family: "CsLugeniaStippledRegularDemo";
+    font-size: 20px;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(138, 130, 130);
+    padding-bottom: 1px;
+}
+
+.menu a:hover {
+    color: #ecc4e2;
+}
+
+.menu a.active {
+    color: #cfa3c1;
+    font-weight: bold;
+}
+
+.menu a {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+
+.menu:hover a {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}

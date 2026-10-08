@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container p {
+    font-family: "CsLugeniaStippledRegularDemo";
+    font-size: 22px;
+    width: 600px;
+    text-align: left;
+    color: rgb(138, 130, 130);
+}

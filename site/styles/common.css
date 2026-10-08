@@ -1,0 +1,24 @@
+body {
+    background-color: #181111;
+
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.remaining {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
