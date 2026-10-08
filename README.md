@@ -9,3 +9,5 @@ Used software: <a href="https://wiki.scribus.net/canvas/Scribus"
                 >Scribus</a>
 
 ## Web site
+
+https://splatter-graffiti.github.io/libris/
