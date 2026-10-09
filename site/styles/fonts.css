@@ -2,24 +2,3 @@
     font-family: "JosefinSans-Light";
     src: url("../fonts/JosefinSans/JosefinSans-Light.ttf") format("truetype");
 }
-
-@font-face {
-    font-family: "BillioneryRegular";
-    src: url("../fonts/BillioneryRegular-drXjg.otf") format("truetype");
-}
-
-@font-face {
-    font-family: "ForeverBrushScript";
-    src: url("../fonts/ForeverBrushScript-xKW0.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Artemesio";
-    src: url("../fonts/Artemesio-DYeg9.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "CsLugeniaStippledRegularDemo";
-    src: url("../fonts/CsLugeniaStippledRegularDemo-1jK6g.otf")
-        format("truetype");
-}

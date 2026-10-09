@@ -13,16 +13,16 @@
 }
 
 .menu span {
-    font-family: "CsLugeniaStippledRegularDemo";
-    font-size: 20px;
-
+    font-family: "JosefinSans-Light";
+    font-size: 16px;
+    font-weight: 900;
     color: rgb(138, 130, 130);
     padding-bottom: 12px;
 }
 
 .menu a {
-    font-family: "CsLugeniaStippledRegularDemo";
-    font-size: 20px;
+    font-family: "JosefinSans-Light";
+    font-size: 16px;
 
     cursor: pointer;
     text-decoration: none;

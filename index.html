@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Stickerz</title>
+        <title>Libris</title>
         <link rel="stylesheet" href="site/styles/common.css" />
         <link rel="stylesheet" href="site/styles/menu.css" />
         <link rel="stylesheet" href="site/styles/fonts.css" />
@@ -12,37 +12,38 @@
     </head>
     <body>
         <div class="content-container">
+            <div class="remaining">
+                <div class="page-content">
+                    <div class="gallery" id="gallery"></div>
+                    <div class="gallery-control" id="gallery-control">
+                        <div class="gallery-image-no-container">
+                            <span>Number of images</span>
+
+                            <span id="image-count"></span>
+                        </div>
+                        <div class="gallery-image-no-container">
+                            <span>Image number</span>
+                            <input
+                                class="gallery-image-no"
+                                type="text"
+                                inputmode="numeric"
+                                pattern="[0-9]*"
+                                placeholder="Enter image number"
+                            />
+                        </div>
+                        <span class="gallery-image-next">Next image</span>
+                        <span class="gallery-image-previous"
+                            >Previous image</span
+                        >
+                    </div>
+                </div>
+            </div>
             <div class="menu">
                 <span>Menu</span>
                 <a href="index.html">Books</a>
                 <a href="site/pages/about.html">About</a>
                 <a href="site/pages/biography.html">Biography</a>
                 <a href="site/pages/contact.html">Contact</a>
-            </div>
-            <div class="remaining">
-                <div class="page-content">
-                    <div class="books-container">
-                        <img
-                            src="data\books\The-Picture-of-Dorian-Gray\Screenshots\Screenshot Cover.png"
-                            width="300px"
-                            alt="The Picture of Dorian Gray"
-                        />
-                        <span>Book - The Picture of Dorian Gray</span>
-                        <a
-                            href="data/books/The-Picture-of-Dorian-Gray/PDF%20Book%20and%20Cover/The%20Picture%20of%20Dorian%20Gray%20-%20Oscar%20Wilde.pdf"
-                            download
-                        >
-                            Download Book
-                        </a>
-
-                        <a
-                            href="data/books/The-Picture-of-Dorian-Gray/PDF%20Book%20and%20Cover/Book%20Cover.pdf"
-                            download
-                        >
-                            Download Book Cover
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 
